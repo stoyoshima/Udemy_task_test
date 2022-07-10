@@ -1,0 +1,29 @@
+
+  GET|HEAD   / ....................................................................................................... 
+  GET|HEAD   _debugbar/assets/javascript ................. debugbar.assets.js › Barryvdh\Debugbar › AssetController@js
+  GET|HEAD   _debugbar/assets/stylesheets .............. debugbar.assets.css › Barryvdh\Debugbar › AssetController@css
+  DELETE     _debugbar/cache/{key}/{tags?} ........ debugbar.cache.delete › Barryvdh\Debugbar › CacheController@delete
+  GET|HEAD   _debugbar/clockwork/{id} ....... debugbar.clockwork › Barryvdh\Debugbar › OpenHandlerController@clockwork
+  GET|HEAD   _debugbar/open .................. debugbar.openhandler › Barryvdh\Debugbar › OpenHandlerController@handle
+  POST       _ignition/execute-solution ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionController
+  GET|HEAD   _ignition/health-check ............ ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST       _ignition/update-config ......... ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
+  GET|HEAD   api/user ................................................................................................ 
+  GET|HEAD   contact/index ............................................... contact.index › ContactFormController@index
+  GET|HEAD   home ........................................................................ home › HomeController@index
+  GET|HEAD   login ........................................................ login › Auth\LoginController@showLoginForm
+  POST       login ........................................................................ Auth\LoginController@login
+  POST       logout ............................................................. logout › Auth\LoginController@logout
+  GET|HEAD   password/confirm ...................... password.confirm › Auth\ConfirmPasswordController@showConfirmForm
+  POST       password/confirm ................................................. Auth\ConfirmPasswordController@confirm
+  POST       password/email ........................ password.email › Auth\ForgotPasswordController@sendResetLinkEmail
+  GET|HEAD   password/reset ..................... password.request › Auth\ForgotPasswordController@showLinkRequestForm
+  POST       password/reset ..................................... password.update › Auth\ResetPasswordController@reset
+  GET|HEAD   password/reset/{token} ...................... password.reset › Auth\ResetPasswordController@showResetForm
+  GET|HEAD   register ........................................ register › Auth\RegisterController@showRegistrationForm
+  POST       register ............................................................... Auth\RegisterController@register
+  GET|HEAD   sanctum/csrf-cookie ......................................... Laravel\Sanctum › CsrfCookieController@show
+  GET|HEAD   test ............................................................................... TestController@index
+
+                                                                                                   Showing [25] routes
+

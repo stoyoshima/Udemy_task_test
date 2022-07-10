@@ -1,0 +1,24 @@
+
+  GET|HEAD        / .................................................................................................. 
+  GET|HEAD        _debugbar/assets/javascript ............ debugbar.assets.js › Barryvdh\Debugbar › AssetController@js
+  GET|HEAD        _debugbar/assets/stylesheets ......... debugbar.assets.css › Barryvdh\Debugbar › AssetController@css
+  DELETE          _debugbar/cache/{key}/{tags?} ... debugbar.cache.delete › Barryvdh\Debugbar › CacheController@delete
+  GET|HEAD        _debugbar/clockwork/{id} .. debugbar.clockwork › Barryvdh\Debugbar › OpenHandlerController@clockwork
+  GET|HEAD        _debugbar/open ............. debugbar.openhandler › Barryvdh\Debugbar › OpenHandlerController@handle
+  POST            _ignition/execute-solution ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionContr…
+  GET|HEAD        _ignition/health-check ....... ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST            _ignition/update-config .... ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
+  GET|HEAD        api/user ........................................................................................... 
+  GET|HEAD        contacts .............................................. contacts.index › ContactFormController@index
+  POST            contacts .............................................. contacts.store › ContactFormController@store
+  GET|HEAD        contacts/create ..................................... contacts.create › ContactFormController@create
+  GET|HEAD        contacts/{contact} ...................................... contacts.show › ContactFormController@show
+  PUT|PATCH       contacts/{contact} .................................. contacts.update › ContactFormController@update
+  DELETE          contacts/{contact} ................................ contacts.destroy › ContactFormController@destroy
+  GET|HEAD        contacts/{contact}/edit ................................. contacts.edit › ContactFormController@edit
+  GET|HEAD        home ................................................................... home › HomeController@index
+  GET|HEAD        sanctum/csrf-cookie .................................... Laravel\Sanctum › CsrfCookieController@show
+  GET|HEAD        test .......................................................................... TestController@index
+
+                                                                                                   Showing [20] routes
+
